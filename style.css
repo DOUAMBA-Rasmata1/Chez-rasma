@@ -1,0 +1,103 @@
+/* Style général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #ff9900;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* ESPACE ENTRE LES MENUS */
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Section héros */
+.hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Galerie */
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
